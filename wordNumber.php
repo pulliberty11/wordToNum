@@ -47,14 +47,14 @@ class wordNumber {
 					if($toString[1] > 1){
 						
 						if($i == 0){
-							$lvl[$i] = "";
+							$lvl[$i] = " ";
 						}
 						//echo $this->tens[$toString[1]]." ".$this->ones[$toString[2]]." ".$lvl[$i]." ";
 						$output .= $this->tens[$toString[1]]." ".$this->ones[$toString[2]]." ".$lvl[$i]." ";
 					}elseif($toString[1] == 0){
 						
 						if($i == 0){
-							$lvl[$i] = "";
+							$lvl[$i] = " ";
 						}
 						//echo $this->ones[$toString[2]]." ".$lvl[$i]."";
 						$output .= $this->ones[$toString[2]]." ".$lvl[$i]."";
