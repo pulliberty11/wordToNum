@@ -20,3 +20,6 @@ $this->wordnumber->numberToWord("Your INT here");
 
 ADDING COMMAS:
 $this->wordnumber->addComma("Your INT here");
+
+Download the link for the sample working project.
+https://github.com/pulliberty11/wordToNum.git
